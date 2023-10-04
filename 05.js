@@ -18,3 +18,12 @@ var movies = {
         format: "Blu-ray"
     }
 };
+
+var cars = {
+    releseDate: 2006,
+    duration: 117,
+    actors: ["Альберт Табола", "Агата Табола"],
+    format: "Blu-ray"
+};
+movies["Тачки"] = cars;
+Object.keys(movies);
