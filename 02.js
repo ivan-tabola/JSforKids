@@ -4,4 +4,4 @@ let car = {
     "brand" : "mercedes"
 };
 
-console.log(car);
+alert(car);
