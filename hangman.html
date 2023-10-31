@@ -55,7 +55,7 @@
     } 
     //Отображаем ответ и поздравляем игрока
     alert(answerArray.join(" "));
-    if (recordingAttempts > 0) {
+    if (recordingAttempts > 0 /*#3.Ограниечение по ходам стр.125*/) {
         alert("Отлично! Было загадано слово " + word);
     } else {
         alert("Плохо! Было загадано слово " + word);
